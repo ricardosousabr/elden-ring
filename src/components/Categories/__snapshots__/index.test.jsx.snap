@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div
+    class="styles__BoxButton-sc-c4zca5-0 iphxnP"
+  >
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
+    >
+      Ammos
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
+    >
+      Armors
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
+    >
+      Ashes of War
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
+    >
+      Bosses
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
+    >
+      Classes
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
+    >
+      Creatures
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
+    >
+      Incantations
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
+    >
+      Items
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
+    >
+      Locatiosn
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
+    >
+      NPCs
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
+    >
+      Shields
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
+    >
+      Sorceries
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
+    >
+      Spirits
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
+    >
+      Talismans
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
+    >
+      Weapons
+    </button>
+  </div>
+</div>
+`;

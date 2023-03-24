@@ -4,9 +4,9 @@
 
 import React from 'react'
 import { render } from '@testing-library/react'
-import Form from './index'
+import Button from './index'
 
 it('renders homepage unchanged', () => {
-  const { container } = render(<Form />)
+  const { container } = render(<Button />)
   expect(container).toMatchSnapshot()
 })
