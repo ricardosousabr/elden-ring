@@ -80,6 +80,9 @@ exports[`renders homepage unchanged 1`] = `
     >
       Weapons
     </button>
+    <p>
+      Busque o que deseja
+    </p>
   </div>
 </div>
 `;

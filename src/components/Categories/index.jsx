@@ -1,7 +1,10 @@
 import Button from '../Button'
 import { BoxButton } from './styles'
+import axios from 'axios'
+import { useState } from 'react'
 
 export default function Categories() {
+  const [responseApi, setResponseApi] = useState(null)
   const categoriesName = [
     'Ammos',
     'Armors',
@@ -20,11 +23,25 @@ export default function Categories() {
     'Weapons',
   ]
 
+  function getData() {
+    axios
+      .get('https://eldenring.fanapis.com/api/armors?name=All-knowing%20Armor')
+      .then((response) => {
+        console.log(response.data)
+        setResponseApi(response.data)
+      })
+  }
+
   return (
     <BoxButton>
-      {categoriesName.map((categorie) => {
-        return <Button key="ee">{categorie}</Button>
+      {categoriesName.map((categorie, index) => {
+        return <Button key={index}>{categorie}</Button>
       })}
+      {responseApi ? (
+        <p>{responseApi.data[0].name}</p>
+      ) : (
+        <p>Busque o que deseja</p>
+      )}
     </BoxButton>
   )
 }
