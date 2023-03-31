@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Button from '../Button'
 import { BoxButton } from './styles'
 import axios from 'axios'
@@ -35,13 +36,12 @@ export default function Categories() {
   return (
     <BoxButton>
       {categoriesName.map((categorie, index) => {
-        return <Button key={index}>{categorie}</Button>
+        return (
+          <Link href="/subcategory" key="link">
+            <Button key={index}>{categorie}</Button>
+          </Link>
+        )
       })}
-      {responseApi ? (
-        <p>{responseApi.data[0].name}</p>
-      ) : (
-        <p>Busque o que deseja</p>
-      )}
     </BoxButton>
   )
 }
