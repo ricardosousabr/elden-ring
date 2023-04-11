@@ -6,7 +6,7 @@ exports[`renders homepage unchanged 1`] = `
     class="styles__BoxButton-sc-c4zca5-0 iphxnP"
   >
     <a
-      href="/subcategory"
+      href="/surveyForm"
     >
       <button
         class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
@@ -15,7 +15,7 @@ exports[`renders homepage unchanged 1`] = `
       </button>
     </a>
     <a
-      href="/subcategory"
+      href="/surveyForm"
     >
       <button
         class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
@@ -24,7 +24,7 @@ exports[`renders homepage unchanged 1`] = `
       </button>
     </a>
     <a
-      href="/subcategory"
+      href="/surveyForm"
     >
       <button
         class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
@@ -33,7 +33,7 @@ exports[`renders homepage unchanged 1`] = `
       </button>
     </a>
     <a
-      href="/subcategory"
+      href="/surveyForm"
     >
       <button
         class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
@@ -42,7 +42,7 @@ exports[`renders homepage unchanged 1`] = `
       </button>
     </a>
     <a
-      href="/subcategory"
+      href="/surveyForm"
     >
       <button
         class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
@@ -51,7 +51,7 @@ exports[`renders homepage unchanged 1`] = `
       </button>
     </a>
     <a
-      href="/subcategory"
+      href="/surveyForm"
     >
       <button
         class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
@@ -60,7 +60,7 @@ exports[`renders homepage unchanged 1`] = `
       </button>
     </a>
     <a
-      href="/subcategory"
+      href="/surveyForm"
     >
       <button
         class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
@@ -69,7 +69,7 @@ exports[`renders homepage unchanged 1`] = `
       </button>
     </a>
     <a
-      href="/subcategory"
+      href="/surveyForm"
     >
       <button
         class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
@@ -78,7 +78,7 @@ exports[`renders homepage unchanged 1`] = `
       </button>
     </a>
     <a
-      href="/subcategory"
+      href="/surveyForm"
     >
       <button
         class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
@@ -87,7 +87,7 @@ exports[`renders homepage unchanged 1`] = `
       </button>
     </a>
     <a
-      href="/subcategory"
+      href="/surveyForm"
     >
       <button
         class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
@@ -96,7 +96,7 @@ exports[`renders homepage unchanged 1`] = `
       </button>
     </a>
     <a
-      href="/subcategory"
+      href="/surveyForm"
     >
       <button
         class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
@@ -105,7 +105,7 @@ exports[`renders homepage unchanged 1`] = `
       </button>
     </a>
     <a
-      href="/subcategory"
+      href="/surveyForm"
     >
       <button
         class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
@@ -114,7 +114,7 @@ exports[`renders homepage unchanged 1`] = `
       </button>
     </a>
     <a
-      href="/subcategory"
+      href="/surveyForm"
     >
       <button
         class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
@@ -123,7 +123,7 @@ exports[`renders homepage unchanged 1`] = `
       </button>
     </a>
     <a
-      href="/subcategory"
+      href="/surveyForm"
     >
       <button
         class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
@@ -132,7 +132,7 @@ exports[`renders homepage unchanged 1`] = `
       </button>
     </a>
     <a
-      href="/subcategory"
+      href="/surveyForm"
     >
       <button
         class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
