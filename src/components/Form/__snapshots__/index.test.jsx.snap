@@ -5,8 +5,9 @@ exports[`renders homepage unchanged 1`] = `
   <div>
     <form>
       <input
-        placeholder=""
+        placeholder="digite a sua pesquisa"
         type="text"
+        value=""
       />
       <button>
         Search

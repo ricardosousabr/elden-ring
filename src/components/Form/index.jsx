@@ -8,21 +8,27 @@ export default function Form() {
     axios
       .get('https://eldenring.fanapis.com/api/bosses?name=' + inputSearch)
       .then((response) => {
-        console.log(response.data)
         setResponseApi(response.data)
       })
+      .catch((error) => console.log(error))
+  }
+
+  function clearInput() {
+    setInputSearch('')
   }
 
   function handleSubmit(e) {
     e.preventDefault()
     getData()
+    clearInput()
   }
 
   return (
     <div>
       <form onSubmit={handleSubmit}>
         <input
-          placeholder=""
+          value={inputSearch}
+          placeholder="digite a sua pesquisa"
           type="text"
           onChange={(e) => {
             setInputSearch(e.target.value)
