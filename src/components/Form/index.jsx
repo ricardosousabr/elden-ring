@@ -1,12 +1,19 @@
 import { useState } from 'react'
 import axios from 'axios'
 
-export default function Form() {
+export default function Form({ category }) {
   const [responseApi, setResponseApi] = useState(null)
   const [inputSearch, setInputSearch] = useState('')
+  const typeCategory = category.toLowerCase()
+
   function getData() {
     axios
-      .get('https://eldenring.fanapis.com/api/bosses?name=' + inputSearch)
+      .get(
+        'https://eldenring.fanapis.com/api/' +
+          typeCategory +
+          '?name=' +
+          inputSearch
+      )
       .then((response) => {
         setResponseApi(response.data)
       })
@@ -21,6 +28,8 @@ export default function Form() {
     e.preventDefault()
     getData()
     clearInput()
+
+    console.log(typeCategory)
   }
 
   return (
