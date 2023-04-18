@@ -1,12 +1,13 @@
 import Form from '@/src/components/Form'
-import { useRouter } from 'next/router'
+import categoriesName from '../../constant/categaory'
 
 export async function getStaticPaths() {
+  const paths = categoriesName.map((categoryName) => ({
+    params: { category: categoryName },
+  }))
+
   return {
-    paths: [
-      { params: { category: 'Ammos' } },
-      { params: { category: 'Armors' } },
-    ],
+    paths,
     fallback: false,
   }
 }
@@ -18,10 +19,9 @@ export async function getStaticProps(context) {
 }
 
 export default function Subcategory({ category }) {
-  console.log(category)
   return (
     <div>
-      <Form />
+      <Form category={category} />
     </div>
   )
 }
