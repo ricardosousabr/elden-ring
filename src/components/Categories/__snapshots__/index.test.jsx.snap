@@ -5,141 +5,81 @@ exports[`renders homepage unchanged 1`] = `
   <div
     class="styles__BoxButton-sc-c4zca5-0 iphxnP"
   >
-    <a
-      href="/surveyForm/Ammos"
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
     >
-      <button
-        class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
-      >
-        Ammos
-      </button>
-    </a>
-    <a
-      href="/surveyForm/Armors"
+      Ammos
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
     >
-      <button
-        class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
-      >
-        Armors
-      </button>
-    </a>
-    <a
-      href="/surveyForm/Ashes of War"
+      Armors
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
     >
-      <button
-        class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
-      >
-        Ashes of War
-      </button>
-    </a>
-    <a
-      href="/surveyForm/Bosses"
+      Ashes of War
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
     >
-      <button
-        class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
-      >
-        Bosses
-      </button>
-    </a>
-    <a
-      href="/surveyForm/Classes"
+      Bosses
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
     >
-      <button
-        class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
-      >
-        Classes
-      </button>
-    </a>
-    <a
-      href="/surveyForm/Creatures"
+      Classes
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
     >
-      <button
-        class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
-      >
-        Creatures
-      </button>
-    </a>
-    <a
-      href="/surveyForm/Incantations"
+      Creatures
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
     >
-      <button
-        class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
-      >
-        Incantations
-      </button>
-    </a>
-    <a
-      href="/surveyForm/Items"
+      Incantations
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
     >
-      <button
-        class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
-      >
-        Items
-      </button>
-    </a>
-    <a
-      href="/surveyForm/Locatiosn"
+      Items
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
     >
-      <button
-        class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
-      >
-        Locatiosn
-      </button>
-    </a>
-    <a
-      href="/surveyForm/NPCs"
+      Locatiosn
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
     >
-      <button
-        class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
-      >
-        NPCs
-      </button>
-    </a>
-    <a
-      href="/surveyForm/Shields"
+      NPCs
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
     >
-      <button
-        class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
-      >
-        Shields
-      </button>
-    </a>
-    <a
-      href="/surveyForm/Sorceries"
+      Shields
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
     >
-      <button
-        class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
-      >
-        Sorceries
-      </button>
-    </a>
-    <a
-      href="/surveyForm/Spirits"
+      Sorceries
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
     >
-      <button
-        class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
-      >
-        Spirits
-      </button>
-    </a>
-    <a
-      href="/surveyForm/Talismans"
+      Spirits
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
     >
-      <button
-        class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
-      >
-        Talismans
-      </button>
-    </a>
-    <a
-      href="/surveyForm/Weapons"
+      Talismans
+    </button>
+    <button
+      class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
     >
-      <button
-        class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
-      >
-        Weapons
-      </button>
-    </a>
+      Weapons
+    </button>
   </div>
 </div>
 `;

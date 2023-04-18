@@ -24,8 +24,10 @@ export default function Categories() {
   return (
     <BoxButton>
       {categoriesName.map((category, index) => {
+        const keyLink = 20 + index
+
         return (
-          <Link href={'/surveyForm/' + category} key="link">
+          <Link href={'/surveyForm/' + category} key={keyLink}>
             <Button key={index}>{category}</Button>
           </Link>
         )

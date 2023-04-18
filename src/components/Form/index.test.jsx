@@ -7,6 +7,6 @@ import { render } from '@testing-library/react'
 import Form from './index'
 
 it('renders homepage unchanged', () => {
-  const { container } = render(<Form />)
+  const { container } = render(<Form category="Ammos" />)
   expect(container).toMatchSnapshot()
 })
