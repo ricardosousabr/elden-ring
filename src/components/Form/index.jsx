@@ -1,5 +1,17 @@
 import { useState } from 'react'
 import axios from 'axios'
+import Button from '../Button'
+import {
+  Container,
+  FormSurvey,
+  InputSurvey,
+  ImageItem,
+  ContainerTitle,
+  Title,
+  Text,
+  ContainerImage,
+  ContainerText,
+} from './styles'
 
 export default function Form({ category }) {
   const [responseApi, setResponseApi] = useState(null)
@@ -33,9 +45,9 @@ export default function Form({ category }) {
   }
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <input
+    <Container>
+      <FormSurvey onSubmit={handleSubmit}>
+        <InputSurvey
           value={inputSearch}
           placeholder="digite a sua pesquisa"
           type="text"
@@ -43,13 +55,23 @@ export default function Form({ category }) {
             setInputSearch(e.target.value)
           }}
         />
-        <button>Search</button>
-      </form>
+        <Button>Search</Button>
+      </FormSurvey>
       {responseApi ? (
-        <p>{responseApi.data[0].name}</p>
+        <div>
+          <ContainerImage>
+            <ImageItem src={responseApi.data[0].image} alt="" />
+          </ContainerImage>
+          <ContainerTitle>
+            <Title>{responseApi.data[0].name}</Title>
+          </ContainerTitle>
+          <ContainerText>
+            <Text>{responseApi.data[0].description}</Text>
+          </ContainerText>
+        </div>
       ) : (
-        <p>Busque o que deseja</p>
+        <Text>Busque o que deseja</Text>
       )}
-    </div>
+    </Container>
   )
 }
