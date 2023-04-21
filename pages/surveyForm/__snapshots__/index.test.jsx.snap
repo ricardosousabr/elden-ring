@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div>
+    <div
+      class="styles__Container-sc-10nqz06-0 ldVGVG"
+    >
+      <form
+        class="styles__FormSurvey-sc-10nqz06-1 bDhWRF"
+      >
+        <input
+          class="styles__InputSurvey-sc-10nqz06-2 bDDvhz"
+          placeholder="digite a sua pesquisa"
+          type="text"
+          value=""
+        />
+        <button
+          class="styles__ButtonCategorie-sc-ufcdqw-0 cbhaIi"
+        >
+          Search
+        </button>
+      </form>
+      <p
+        class="styles__Text-sc-10nqz06-6 kDBhEz"
+      >
+        Busque o que deseja
+      </p>
+    </div>
+  </div>
+</div>
+`;
